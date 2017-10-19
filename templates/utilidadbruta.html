@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block body %}
+<h2>{{ the_title }}</h2>
+<form method='POST' action='/calculobruto'>
+<table>
+<p>Utilice este formulario para calcular la utilida bruta</p>
+<tr><td>Ventas Netas:</td><td><input name='ven_net' type='TEXT' width='30'></td></tr>
+<tr><td>Costo de Venta:</td><td><input name='cost_ven' type='TEXT' width='30'></td></tr>
+</table>
+<p>Cuando estes listo, presiona el botón</p>
+<p><input value='Calcular!' type='SUBMIT'></p>
+<p><a href="/entry">Regresar a inicio</a></p>
+</form>
+{% endblock %}

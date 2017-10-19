@@ -1,0 +1,6 @@
+calculobruto.py
+setup.py
+calculobruto.egg-info/PKG-INFO
+calculobruto.egg-info/SOURCES.txt
+calculobruto.egg-info/dependency_links.txt
+calculobruto.egg-info/top_level.txt
